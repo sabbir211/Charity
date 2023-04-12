@@ -8,6 +8,11 @@
 .white-50{
     color: rgba(255, 254, 254, 0.808);
 }
+.centerBox{
+    text-align: center;
+    width: 50%;
+    margin:80px auto;
+}
 .topBanner {
     background-image: url("./Images/topBanner.jpg");
     background-size: cover;
@@ -54,11 +59,7 @@
    cursor: pointer;
    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.678);
 }
-#donateToday{
-    text-align: center;
-    width: 50%;
-    margin:80px auto;
-}
+
 #donateToday h2{
     font-size: 2rem;
     margin: 10px;
@@ -92,6 +93,36 @@
 }
 .inputField:focus-within{
     outline: none;
+}
+.planTitle{
+    text-align: center;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    margin: 20px 10%;
+}
+.eachPlan{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 4px;
+}
+.eachPlan h4{
+    margin:20px 0;
+    font-size: 1.3rem;
+}
+.eachPlan img{
+    display: block;
+    margin: 0 auto;
+}
+.plans .eachPlan:nth-child(1){
+   background-color: rgba(103, 230, 155, 0.452);
+}
+.plans .eachPlan:nth-child(2){
+   background-color: rgba(135, 129, 223, 0.384);
+}
+.plans .eachPlan:nth-child(3){
+   background-color: rgba(218, 233, 164, 0.452);
 }
 @media screen and (max-width: 480px) {
     .overlay p{
