@@ -216,3 +216,46 @@ footer{
     }
     
 }
+@media screen and (max-width: 576px) {
+    .overlay p{
+        display: none;
+    }
+    .topBanner {
+        
+        background-size:cover;
+        background-repeat: no-repeat;
+         height: 30vh;
+    }
+    .amount{
+        overflow-x: scroll;
+        
+    }
+    .handImg{
+        display: none;
+    }
+    .centerBox{
+        width: 90%;
+    }
+    .plans{
+        /* overflow-x:scroll ; */
+    }
+    .eachPlan{
+        height: 200px;
+        overflow-y: scroll;
+        width: 200px;
+     
+    }
+    .eachPlan h4{
+        font-size: 1rem;
+     
+    }
+    .eligibility {
+        padding: 0.75rem 1rem;
+        font-size: 1rem;
+    margin-top: 5px;
+    }
+}
+
+@media (min-width: 768px) { 
+
+ }
