@@ -124,6 +124,86 @@
 .plans .eachPlan:nth-child(3){
    background-color: rgba(218, 233, 164, 0.452);
 }
+#takingFund{
+    display: flex;
+    margin: 5% 10%;
+    padding:5% 10%;
+    padding-right: 0;
+    padding-bottom: 0;
+background-color: rgba(228, 230, 231, 0.377);
+border-radius: 3px;
+}
+#takingFund h4{
+    font-size: calc(15px + 2vw);
+}
+.takeButtons{
+    margin: 30px;
+}
+.getStartBtn{
+    border-radius: 6.25rem;
+    padding: .75rem 2rem;
+    font-size: 1.3rem;
+    background-color: #008748;
+    border: none;
+    color: white;
+}
+.getStartBtn:hover{
+    cursor: pointer;
+    background-color: #066438fd;
+}
+.eligibility{
+    padding: .75rem 2rem;
+    font-size: 1.3rem;
+    border-radius: 6.25rem;
+    border:1px solid gray ;
+    background-color: white;
+}
+.eligibility:hover{
+    background-color: rgba(236, 245, 235, 0.534);
+    cursor: pointer;
+}
+#getUpadate{
+    margin: 5% 10%;
+    text-align: center;
+}
+#getUpadate h5{
+   font-size: 2rem;
+   margin: 8px 0px;
+}
+#subscribeForm{
+    padding: 10vw;
+    margin: 2vw;
+    background-color: #18A88F;
+    border-radius: 3px;
+}
+.updateInput{
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+.subscribe{
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    background-color: #256add;
+    color: white;
+}
+.subscribe:hover{
+   cursor: pointer;
+    background-color: #1652b9;
+   
+}
+footer{
+    background-color: black;
+    color: rgba(236, 10, 10, 0.801);
+    padding: 4vw;
+    margin-top:12vw;
+    text-align: center;
+    font-size: 1.2em;
+
+}
 @media screen and (max-width: 480px) {
     .overlay p{
         display: none;
